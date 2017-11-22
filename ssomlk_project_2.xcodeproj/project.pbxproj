@@ -15,6 +15,8 @@
 		384D901F1FB8E62F00A01A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384D901D1FB8E62F00A01A8A /* LaunchScreen.storyboard */; };
 		384D902A1FB8E62F00A01A8A /* ssomlk_project_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D90291FB8E62F00A01A8A /* ssomlk_project_2Tests.swift */; };
 		384D90351FB8E62F00A01A8A /* ssomlk_project_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D90341FB8E62F00A01A8A /* ssomlk_project_2UITests.swift */; };
+		387718621FBA465A00FF1093 /* FlickrTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387718611FBA465A00FF1093 /* FlickrTableViewCell.swift */; };
+		387718641FBA474D00FF1093 /* FlickrTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387718631FBA474D00FF1093 /* FlickrTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		384D90301FB8E62F00A01A8A /* ssomlk_project_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ssomlk_project_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		384D90341FB8E62F00A01A8A /* ssomlk_project_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssomlk_project_2UITests.swift; sourceTree = "<group>"; };
 		384D90361FB8E62F00A01A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387718611FBA465A00FF1093 /* FlickrTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrTableViewCell.swift; sourceTree = "<group>"; };
+		387718631FBA474D00FF1093 /* FlickrTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		384D90101FB8E62F00A01A8A /* ssomlk_project_2 */ = {
 			isa = PBXGroup;
 			children = (
+				387718631FBA474D00FF1093 /* FlickrTableViewController.swift */,
+				387718611FBA465A00FF1093 /* FlickrTableViewCell.swift */,
 				384D90111FB8E62F00A01A8A /* AppDelegate.swift */,
 				384D90131FB8E62F00A01A8A /* ViewController.swift */,
 				384D90151FB8E62F00A01A8A /* Main.storyboard */,
@@ -264,6 +270,8 @@
 			files = (
 				384D90141FB8E62F00A01A8A /* ViewController.swift in Sources */,
 				384D901A1FB8E62F00A01A8A /* ssomlk_project_2.xcdatamodeld in Sources */,
+				387718641FBA474D00FF1093 /* FlickrTableViewController.swift in Sources */,
+				387718621FBA465A00FF1093 /* FlickrTableViewCell.swift in Sources */,
 				384D90121FB8E62F00A01A8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +519,7 @@
 				384D903B1FB8E62F00A01A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		384D903C1FB8E62F00A01A8A /* Build configuration list for PBXNativeTarget "ssomlk_project_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				384D903E1FB8E62F00A01A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		384D903F1FB8E62F00A01A8A /* Build configuration list for PBXNativeTarget "ssomlk_project_2UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				384D90411FB8E62F00A01A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
